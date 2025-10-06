@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "next lint"
+    "preview": "node scripts/serve-out.mjs",
+    "lint": "next lint",
+    "test": "node scripts/run-tests.mjs"
   },
   "dependencies": {
     "next": "13.5.4",
