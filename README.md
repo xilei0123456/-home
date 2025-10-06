@@ -26,6 +26,12 @@ This repository now ships with a 完整的交互式俄罗斯方块小游戏示�
 
 游戏支持键盘操作（方向键移动与旋转、空格硬降、P 暂停、R 重开），也可以使用侧边的按钮来暂停或重新开始。
 
+## 文件是否已经在 GitHub 上？
+
+当前你看到的所有项目文件都位于本地开发容器中的 Git 仓库 `/workspace/-home`。如果你是通过 Codespaces、GitHub Classroom 或者其它在线环境打开本项目，那么这些修改默认只保存在该环境的仓库副本里，并不会自动推送到你的 GitHub 远程仓库。
+
+要确认是否已经配置远程仓库，可以运行 `git remote -v`。若想把本地的修改同步到 GitHub，请执行 `git push <远程名> <分支名>`（例如 `git push origin work`）。完成推送后，GitHub 仓库页面就会显示本地所有的提交与文件更新。
+
 ## 代码检查 / Linting
 
 - 运行 `npm run lint` 以使用 Next.js 推荐的 ESLint 规则检查代码质量。
