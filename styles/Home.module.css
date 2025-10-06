@@ -8,6 +8,8 @@
   gap: 1.5rem;
   background: radial-gradient(circle at top, #1d2b64, #1b1b2f 55%, #13131f);
   color: #f7f9ff;
+  font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Source Han Sans SC', sans-serif;
 }
 
 .title {
