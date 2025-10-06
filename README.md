@@ -25,3 +25,8 @@ This repository now ships with a 完整的交互式俄罗斯方块小游戏示�
 如果你想验证打包后的静态版本，可以先执行 `npm run build`，随后运行 `npm run preview` 启动一个轻量的本地静态文件服务（默认同样监听在 `http://localhost:3000`）。
 
 游戏支持键盘操作（方向键移动与旋转、空格硬降、P 暂停、R 重开），也可以使用侧边的按钮来暂停或重新开始。
+
+## 代码检查 / Linting
+
+- 运行 `npm run lint` 以使用 Next.js 推荐的 ESLint 规则检查代码质量。
+- 如果本地尚未安装 ESLint 依赖，`npm run test` 会跳过检查并提示如何安装 `eslint` 与 `eslint-config-next`。
